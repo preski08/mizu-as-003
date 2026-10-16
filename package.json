@@ -1,0 +1,19 @@
+{
+  "name": "simple-p2p-blockchain",
+  "version": "1.0.0",
+  "description": "Educational simple blockchain with P2P networking (WebSocket relay), PoW consensus, and distributed ledger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "node": "node node.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "crypto-js": "^4.2.0",
+    "uuid": "^9.0.1"
+  },
+  "keywords": ["blockchain", "p2p", "consensus", "distributed-ledger", "educational"],
+  "author": "Grok",
+  "license": "MIT"
+}
